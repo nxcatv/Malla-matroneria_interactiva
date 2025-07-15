@@ -98,4 +98,5 @@ malla.push(
     ]
   }
 );
+
 crearMalla();
