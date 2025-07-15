@@ -40,4 +40,62 @@ const malla = [
     ]
   }
 ];
+malla.push(
+  {
+    semestre: "5° Semestre",
+    ramos: [
+      { nombre: "Embriología", codigo: "embrio5", prerequisitos: ["bio2", "anato3"] },
+      { nombre: "Parasitología", codigo: "parasito5", prerequisitos: ["micro3"] },
+      { nombre: "Salud Sexual y Reproductiva", codigo: "ssr5", prerequisitos: ["genero4"] },
+      { nombre: "Investigación I", codigo: "inv5", prerequisitos: ["estad4"] },
+      { nombre: "Taller de Participación Social", codigo: "tps5", prerequisitos: ["comu3"] }
+    ]
+  },
+  {
+    semestre: "6° Semestre",
+    ramos: [
+      { nombre: "Ginecología", codigo: "gine6", prerequisitos: ["ssr5", "anato3"] },
+      { nombre: "Obstetricia", codigo: "obste6", prerequisitos: ["embrio5", "fisio4"] },
+      { nombre: "Salud Familiar", codigo: "fam6", prerequisitos: ["salud3", "promo4"] },
+      { nombre: "Investigación II", codigo: "inv6", prerequisitos: ["inv5"] },
+      { nombre: "Práctica Integrada I", codigo: "practica6", prerequisitos: ["ssr5", "promo4"] }
+    ]
+  },
+  {
+    semestre: "7° Semestre",
+    ramos: [
+      { nombre: "Neonatología", codigo: "neo7", prerequisitos: ["obste6"] },
+      { nombre: "Enfermería del Recién Nacido", codigo: "ern7", prerequisitos: ["neo7"] },
+      { nombre: "Salud Mental", codigo: "mental7", prerequisitos: ["psico2"] },
+      { nombre: "Educación en Salud", codigo: "edu7", prerequisitos: ["promo4"] },
+      { nombre: "Práctica Integrada II", codigo: "practica7", prerequisitos: ["practica6"] }
+    ]
+  },
+  {
+    semestre: "8° Semestre",
+    ramos: [
+      { nombre: "Urgencia Obstétrica", codigo: "urg8", prerequisitos: ["obste6", "gine6"] },
+      { nombre: "Legislación en Salud", codigo: "legal8" },
+      { nombre: "Administración en Salud", codigo: "admin8", prerequisitos: ["salud3"] },
+      { nombre: "Investigación III", codigo: "inv8", prerequisitos: ["inv6"] },
+      { nombre: "Práctica Integrada III", codigo: "practica8", prerequisitos: ["practica7"] }
+    ]
+  },
+  {
+    semestre: "9° Semestre",
+    ramos: [
+      { nombre: "Internado Área Obstétrica", codigo: "internado9", prerequisitos: ["urg8", "practica8"] },
+      { nombre: "Internado Área Neonatal", codigo: "neo9", prerequisitos: ["ern7", "practica8"] },
+      { nombre: "Internado Área Comunitaria", codigo: "comu9", prerequisitos: ["edu7", "admin8"] },
+      { nombre: "Investigación IV", codigo: "inv9", prerequisitos: ["inv8"] }
+    ]
+  },
+  {
+    semestre: "10° Semestre",
+    ramos: [
+      { nombre: "Internado Final", codigo: "final10", prerequisitos: ["internado9", "neo9", "comu9"] },
+      { nombre: "Tesis o Actividad de Grado", codigo: "tesis10", prerequisitos: ["inv9"] }
+    ]
+  }
+);
 crearMalla();
