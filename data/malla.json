@@ -1,0 +1,115 @@
+[
+  {
+    "semestre": 1,
+    "ramos": [
+      "Anatomía funcional básica",
+      "Biología celular",
+      "Comunicación oral y escrita",
+      "Educación física y salud",
+      "Introducción a la matronería",
+      "Salud sexual y reproductiva",
+      "Bases conceptuales de la salud pública y colectiva"
+    ]
+  },
+  {
+    "semestre": 2,
+    "ramos": [
+      {"nombre": "Histología", "requisitos": ["Biología celular"]},
+      "Bioquímica general",
+      "Comunicación en lengua inglesa a nivel básico",
+      "Optativo de formación general",
+      "Sexualidad, género y diversidades",
+      {"nombre": "Fundamentos disciplinares de la matronería", "requisitos": ["Introducción a la matronería"]},
+      "Psicología antropológica"
+    ]
+  },
+  {
+    "semestre": 3,
+    "ramos": [
+      {"nombre": "Comunicación en lengua inglesa a nivel intermedio", "requisitos": ["Comunicación en lengua inglesa a nivel básico"]},
+      "Cuidados clínicos de la matronería",
+      {"nombre": "Salud familiar y comunitaria", "requisitos": ["Bases conceptuales de la salud pública y colectiva"]},
+      {"nombre": "Genética y embriología humana", "requisitos": ["Anatomía funcional básica", "Biología celular"]},
+      {"nombre": "Microbiología y parasitología", "requisitos": ["Biología celular"]}
+    ]
+  },
+  {
+    "semestre": 4,
+    "ramos": [
+      {"nombre": "Cuidados de matronería en atención abierta, cerrada y comunitaria", "requisitos": ["Cuidados clínicos de la matronería"]},
+      {"nombre": "Fisiología sexual y ginecológica", "requisitos": ["Fisiología"]},
+      {"nombre": "Fisiología del embarazo y del recién nacido", "requisitos": ["Genética y embriología humana"]},
+      {"nombre": "Farmacología clínica", "requisitos": ["Bioquímica general"]},
+      {"nombre": "Fisiopatología", "requisitos": ["Fisiología"]}
+    ]
+  },
+  {
+    "semestre": 5,
+    "ramos": [
+      {"nombre": "Cuidados de matronería durante el ciclo reproductivo enonatal y fisiológico", "requisitos": ["Farmacología clínica", "Cuidados de matronería en atención abierta, cerrada y comunitaria"]},
+      {"nombre": "Alteraciones del ciclo reproductivo", "requisitos": ["Fisiología del embarazo y del recién nacido"]},
+      {"nombre": "Alteraciones ginecológicas", "requisitos": ["Fisiología del embarazo y del recién nacido"]},
+      "Consejería y educación para la salud",
+      "Habilidades actitudinales para el ejercicio profesional",
+      "Bioestadística aplicada a la epidemiología"
+    ]
+  },
+  {
+    "semestre": 6,
+    "ramos": [
+      {"nombre": "Cuidados de matronería durante el ciclo sexual y reproductivo", "requisitos": ["Alteraciones del ciclo reproductivo", "Cuidados de matronería durante el ciclo reproductivo enonatal y fisiológico"]},
+      "Salud sexual y reproductiva en la adolescencia",
+      {"nombre": "Anticoncepción y terapia de reposición hormonal", "requisitos": ["Farmacología clínica"]},
+      "Bioética y matronería",
+      "Salud mental en el curso de vida",
+      {"nombre": "Metodología de la investigación cuantitativa", "requisitos": ["Bases conceptuales de la salud pública y colectiva"]}
+    ]
+  },
+  {
+    "semestre": 7,
+    "ramos": [
+      {"nombre": "Optativo de especialidad 1", "requisitos": ["1° a 4° semestre aprobados"]},
+      {"nombre": "Cuidados integrales en salud sexual y reproductiva", "requisitos": ["Cuidados de matronería durante el ciclo sexual y reproductivo"]},
+      "Salud sexual en la adultez mayor",
+      {"nombre": "Metodología de la investigación cualitativa", "requisitos": ["Bioestadística aplicada a la epidemiología"]},
+      "Políticas y sistemas de salud"
+    ]
+  },
+  {
+    "semestre": 8,
+    "ramos": [
+      {"nombre": "Optativo de especialidad 2", "requisitos": ["1° a 4° semestre aprobados"]},
+      {"nombre": "Cuidados integrales avanzados en salud sexual y reproductiva", "requisitos": ["Cuidados integrales en salud sexual y reproductiva"]},
+      {"nombre": "Cuidados clínicos del recién nacido patológico", "requisitos": ["Cuidados integrales en salud sexual y reproductiva"]},
+      "Cuidados clínicos del recién nacido",
+      {"nombre": "Proyecto de investigación", "requisitos": ["Metodología de la investigación cualitativa"]},
+      {"nombre": "Gestión interdisciplinaria para el trabajo comunitario", "requisitos": ["Metodología de la investigación cualitativa"]},
+      {"nombre": "Herramientas de gestión e innovación en salud", "requisitos": ["Metodología de la investigación cualitativa"]}
+    ]
+  },
+  {
+    "semestre": 9,
+    "ramos": [
+      {"nombre": "Optativo de profundización", "requisitos": ["1° a 8° semestre aprobados"]},
+      {"nombre": "Avance de investigación: trabajo de campo", "requisitos": ["Proyecto de investigación"]},
+      {"nombre": "Internado clínico de matronería", "requisitos": ["Cuidados clínicos del recién nacido patológico", "Cuidados integrales avanzados en salud sexual y reproductiva"]},
+      {"nombre": "Internado de gestión del cuidado en matronería", "requisitos": ["Herramientas de gestión e innovación en salud", "Cuidados integrales avanzados en salud sexual y reproductiva"]}
+    ]
+  },
+  {
+    "semestre": 10,
+    "ramos": [
+      {"nombre": "Trabajo de investigación", "requisitos": ["Avance de investigación: trabajo de campo"]}
+    ]
+  },
+  {
+    "semestre": 11,
+    "ramos": [
+      {"nombre": "Optativo de profundización", "requisitos": ["1° a 8° semestre aprobados"]},
+      {"nombre": "Avance de investigación: trabajo de campo", "requisitos": ["Optativo de profundización"]},
+      {"nombre": "Internado clínico en matronería", "requisitos": ["Cuidados clínicos del recién nacido patológico", "Cuidados integrales avanzados en salud sexual y reproductiva"]},
+      {"nombre": "Internado de gestión del cuidado en matronería", "requisitos": ["Herramientas de gestión e innovación en salud", "Cuidados integrales avanzados en salud sexual y reproductiva"]},
+      {"nombre": "Proyecto de tesis de Magíster", "requisitos": ["Avance de investigación: trabajo de campo"]}
+    ]
+  }
+]
